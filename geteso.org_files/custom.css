@@ -1,0 +1,28 @@
+#boards {line-height:1.2; margin:0; padding:10px 10px 10px; text-align:justify; border-bottom:1px dashed #bbb}
+#boards a {margin-right:0.7em; color:#555}
+#ftr #copyright {display:grid}
+#footerLinks {display:flex; justify-content:center; list-style-type:none}
+#footerLinks li {padding:5px; width:fit-content; float:left; border-left:1px dashed #ccc; border-bottom:1px dashed #ccc}
+#footerLinks li:last-child {border-right:1px dashed #ccc}
+#joinForum {margin-bottom:5px}
+#agreeTerms {margin-bottom:10px}
+/* body {background:url(https://geteso.org/skins/Plastic/white.svg) center 3px/34.8px repeat, linear-gradient(#e4e5ea, #fff 70%) no-repeat} */
+/* About */
+#about {border-left:175px solid #eee; border-image:linear-gradient(180deg, #eee, #fff); border-image-slice:1; margin:-15px -25px; background:#fff}
+#about .menu {float:left; width:175px; margin:0; margin-top:5px; margin-left:-175px; padding:10px 0; border-right:1px solid #ccc}
+#about .menu li {list-style-type:none; margin:0; padding:0; display:block}
+#about .menu li a {display:block; margin-left:25px; padding:10px 15px; font-size:120%}
+#about .menu li.active a {background:#fff; border:solid #ccc; border-width:1px 0 1px 1px; margin-right:-1px; color:#000; font-weight:bold}
+#about .inner {padding:15px 25px; padding-bottom:2px; margin-bottom:15px; border-left:1px solid #ccc}
+#about h3 {border-bottom:1px solid #bbb; margin:0 0 5px}
+#about p {word-wrap:break-word; text-align:justify}
+#about p:last-child {margin:0}
+@media only screen and (max-width:620px) {
+#about {margin-top:0; border-left:0; border-image:none; background:unset}
+#about .menu {float:none; margin-top:0; margin-left:25px; margin-right:25px; padding:0; width:-webkit-fill-available; border:1px solid #ccc}
+#about .menu li {display:block; margin-right:0}
+#about .menu li a {display:block; margin:0; background-color:#eee; border-top:1px solid #ccc}
+#about .menu li.active a {margin-right:0; border-left:unset; border-bottom:unset}
+#about .menu li:first-child a {border:none}
+#about .inner {padding-top:10px}
+}
